@@ -32,21 +32,20 @@ public class ProfileExampleTextPagerAdapter extends PagerAdapter {
         mContext = context;
         mTextList = new ArrayList<>();
 
-//        String[] stringList = context.getResources().getStringArray(R.array.profile_example_text);
-//
-////        User user = CurrentUserService.getCurrentUser();
-////        String userName = user.name;
-////        String area = user.area.name;
-////        String age = String.valueOf(user.getAge());
-//
-//        for (int i = 0; i < stringList.length; i++){
-//            // 文章を整形
-//            String string = stringList[i];
-//            string = string.replace(TAG_NAME, userName);
-//            string = string.replace(TAG_AREA, area);
-//            string = string.replace(TAG_AGE, age);
-//            mTextList.add(string);
-//        }
+        // profile_example_text で定義した、一覧を取得している
+        String[] stringList = context.getResources().getStringArray(R.array.profile_example_text);
+
+
+        // profile_example_text の 文章を全て取得して、
+        for (int i = 0; i < stringList.length; i++){
+            // 文章を整形
+
+            String string = stringList[i];
+            string = string.replace(TAG_NAME, "「名前」");
+            string = string.replace(TAG_AREA, "「住所」");
+            string = string.replace(TAG_AGE, "「年齢」");
+            mTextList.add(string);
+        }
     }
 
 
@@ -86,6 +85,9 @@ public class ProfileExampleTextPagerAdapter extends PagerAdapter {
         container.removeView((View) object);
     }
 
+
+    // getCount()
+    //全体の数を取得する
     @Override
     public int getCount() {
         // リストのアイテム数を返す

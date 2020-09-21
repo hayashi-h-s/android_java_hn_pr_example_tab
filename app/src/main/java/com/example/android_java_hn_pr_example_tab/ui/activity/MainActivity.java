@@ -1,5 +1,6 @@
 package com.example.android_java_hn_pr_example_tab.ui.activity;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -16,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
     EditText mPr_container;
 
-//    Activity activity;
+    Activity activity;
 
 
     @Override
@@ -32,7 +33,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 ProfileExampleTextDialog mProfileExampleTextDialog = new ProfileExampleTextDialog();
-                mProfileExampleTextDialog.showExampleTextDialog (getParent(), new ProfileExampleTextDialog.ProfileExampleTextDialogListener() {
+
+                // MainActivity.thisでアクティビティを取得している
+                mProfileExampleTextDialog.showExampleTextDialog (MainActivity.this, new ProfileExampleTextDialog.ProfileExampleTextDialogListener() {
                     @Override
                     public void onSelectListener(String selectText) {
                         mPr_container.setText(selectText);
