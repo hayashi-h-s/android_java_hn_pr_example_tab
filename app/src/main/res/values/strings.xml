@@ -1,0 +1,1245 @@
+<resources>
+    <string name="app_name">GIFT CHAT</string>
+    <string name="app_name_no_space">GIFTCHAT</string>
+    <string name="com.crashlytics.useFirebaseAppId">true</string>
+    <string name="facebook_app_id">337863260159103</string>
+
+    <string name="title_activity_top">TopActivity</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_user">UserActivity</string>
+    <string name="title_activity_my_page">MyPageActivity</string>
+    <string name="title_activity_mail_list">MailListActivity</string>
+    <string name="title_activity_mail_detail">MailDetailActivity</string>
+    <string name="title_activity_regist">RegistActivity</string>
+    <string name="title_activity_option">OptionActivity</string>
+    <string name="title_activity_maintenance">MaintenanceActivity</string>
+    <string name="title_activity_new_version">NewVersionActivity</string>
+    <string name="title_activity_foot_print">FootPrintActivity</string>
+    <string name="title_activity_license">LicenseActivity</string>
+
+    <!-- common string start-->
+    <string name="age">年齢</string>
+    <string name="age_format">%d歳</string>
+    <string name="age_not_specified">指定なし</string>
+    <string name="name_and_age_format">%1$s(%2$d歳)</string>
+    <string name="live_and_age_format">%1$s民(%2$d歳)</string>
+    <string name="male">男性</string>
+    <string name="female">女性</string>
+    <string name="common_prefecture">都道府県</string>
+    <string name="common_area">地域</string>
+    <string name="common_community">コミュニティ</string>
+    <string name="age_select">年齢選択</string>
+    <string name="age_select_range">%1$s〜%2$s</string>
+    <string name="common_view_prefecture_and_area">%1$s, %2$s</string>
+    <string name="common_gender_not_specified">指定なし</string>
+    <string name="common_gender">性別</string>
+    <string name="common_gender_male">男性</string>
+    <string name="common_gender_female">女性</string>
+    <string name="common_style">体型</string>
+    <string name="common_blood_type">血液型</string>
+    <string name="common_smoking_type">喫煙</string>
+    <string name="common_drinking_type">飲酒</string>
+    <string name="common_comment">コメント</string>
+    <string name="common_all_states">全国</string>
+    <string name="common_point_omission">pt</string>
+    <string name="common_purpose">利用目的</string>
+    <string name="common_height">身長</string>
+    <string name="common_home_town">出身地</string>
+    <string name="common_speak_language">話せる言語</string>
+    <string name="common_pr">PR文</string>
+    <string name="common_use_time">アプリの利用時間帯</string>
+    <string name="common_holiday">休日</string>
+    <string name="common_car">クルマ</string>
+    <string name="common_housemate">同居人</string>
+    <string name="common_date_cost">初回のデート費用</string>
+    <string name="common_meet">出会うまでの希望</string>
+    <string name="common_favorite">好きなこと、趣味</string>
+    <string name="common_personality">性格・タイプ</string>
+    <string name="common_academic_history">学歴</string>
+    <string name="common_job">職業</string>
+    <string name="common_salary">年収</string>
+    <string name="common_marriage_history">結婚歴</string>
+    <string name="common_marriage_intention">結婚に対する意思</string>
+    <string name="common_child">子どもの有無</string>
+    <string name="common_want_child">子どもが欲しいか</string>
+    <string name="common_help_dialog_negative_button">もう表示しない</string>
+    <string name="common_new">NEW</string>
+    <string name="common_under_cm">〜%dcm</string>
+    <string name="common_cm">%dcm</string>
+    <string name="common_over_cm">%dcm〜</string>
+    <string name="common_star_num">%dpt</string>
+    <string name="common_connection_error">接続に失敗しました</string>
+    <string name="common_point">pt</string>
+
+    <string name="common_sunday">日</string>
+    <string name="common_monday">月</string>
+    <string name="common_tuesday">火</string>
+    <string name="common_wednesday">水</string>
+    <string name="common_thursday">木</string>
+    <string name="common_friday">金</string>
+    <string name="common_saturday">土</string>
+    <string name="common_present_mark">🎁</string>
+    <string name="common_minute">分</string>
+    <string name="common_time">時間</string>
+    <string name="common_remaining">残り</string>
+    <string name="common_detail">詳細</string>
+    <string name="common_citizens_of_preference">%1$s民</string>
+    <string name="common_for">To\t%1$s</string>
+    <!-- common string end-->
+
+    <!-- enum label start-->
+    <string name="empty_label">未選択</string>
+
+    <string name="smoking_type_donot">吸わない</string>
+    <string name="smoking_type_sometimes">時々吸う</string>
+    <string name="smoking_type_always">吸う</string>
+
+    <string name="drinking_type_donot">飲まない</string>
+    <string name="drinking_type_sometimes">時々飲む</string>
+    <string name="drinking_type_always">飲む</string>
+
+    <string name="style_type_slim">スリム</string>
+    <string name="style_type_normal">普通</string>
+    <string name="style_type_overweight">ぽっちゃり</string>
+    <string name="style_type_macho">マッチョ</string>
+
+    <string name="blood_type_1">A型</string>
+    <string name="blood_type_2">B型</string>
+    <string name="blood_type_3">O型</string>
+    <string name="blood_type_4">AB型</string>
+
+    <string name="housemate_type_1">一人暮らし</string>
+    <string name="housemate_type_2">友達と一緒</string>
+    <string name="housemate_type_3">ペットと一緒</string>
+    <string name="housemate_type_4">実家ぐらし</string>
+    <string name="housemate_type_5">その他</string>
+
+    <string name="academic_history_type_1">高校卒</string>
+    <string name="academic_history_type_2">短大/専門卒</string>
+    <string name="academic_history_type_3">大学卒</string>
+    <string name="academic_history_type_4">大学院卒</string>
+    <string name="academic_history_type_5">その他</string>
+
+    <string name="salary_type_1">〜200万</string>
+    <string name="salary_type_2">200万〜400万</string>
+    <string name="salary_type_3">400万〜600万</string>
+    <string name="salary_type_4">600万〜800万</string>
+    <string name="salary_type_5">800万〜1000万</string>
+    <string name="salary_type_6">1000万〜1500万</string>
+    <string name="salary_type_7">1500万〜</string>
+    <string name="salary_type_8">その他</string>
+
+    <string name="holiday_type_1">土日</string>
+    <string name="holiday_type_2">平日</string>
+    <string name="holiday_type_3">不定期</string>
+
+    <string name="marriage_intention_type_1">すぐにでも結婚したい</string>
+    <string name="marriage_intention_type_2">2~3年のうちに結婚したい</string>
+    <string name="marriage_intention_type_3">いい人がいれば結婚したい</string>
+    <string name="marriage_intention_type_4">今の所結婚は考えていない</string>
+
+    <string name="condition_to_meet_type_1">きちんとメッセージ交換を重ねてから</string>
+    <string name="condition_to_meet_type_2">気が合えば会いたい</string>
+    <string name="condition_to_meet_type_3">まずは会って話したい</string>
+
+    <string name="marriage_history_type_1">独身[未婚]</string>
+    <string name="marriage_history_type_2">独身[離婚]</string>
+    <string name="marriage_history_type_3">独身[死別]</string>
+    <string name="marriage_history_type_4">既婚</string>
+    <string name="marriage_history_type_5">その他</string>
+
+    <string name="have_car_type_1">あり</string>
+    <string name="have_car_type_2">なし</string>
+    <string name="have_car_type_3">その他</string>
+
+    <string name="have_child_type_1">なし</string>
+    <string name="have_child_type_2">同居中</string>
+    <string name="have_child_type_3">別居中</string>
+
+    <string name="want_child_type_1">はい</string>
+    <string name="want_child_type_2">いいえ</string>
+    <string name="want_child_type_3">わからない</string>
+    <string name="want_child_type_4">相手と相談して決める</string>
+
+    <string name="date_cost_type_1">男性が全て払う</string>
+    <string name="date_cost_type_2">男性が多めに払う</string>
+    <string name="date_cost_type_3">割り勘</string>
+    <string name="date_cost_type_4">持っている方が払う</string>
+    <string name="date_cost_type_5">相手と相談して決める</string>
+
+    <string name="speak_language_type_1">日本語</string>
+    <string name="speak_language_type_2">英語</string>
+    <string name="speak_language_type_3">中国語</string>
+    <string name="speak_language_type_4">韓国語</string>
+    <string name="speak_language_type_5">フランス語</string>
+    <string name="speak_language_type_6">イタリア語</string>
+    <string name="speak_language_type_7">ロシア語</string>
+    <string name="speak_language_type_8">ドイツ語</string>
+    <string name="speak_language_type_9">スペイン語</string>
+    <string name="speak_language_type_10">ヒンディー語</string>
+    <string name="speak_language_type_11">アラビア語</string>
+    <string name="speak_language_type_12">ポルトガル語</string>
+    <string name="speak_language_type_13">タイ語</string>
+    <string name="speak_language_type_14">ベトナム語</string>
+    <string name="speak_language_type_15">トルコ語</string>
+    <string name="speak_language_type_16">マレー語</string>
+    <string name="speak_language_type_17">ネパール語</string>
+    <string name="speak_language_type_18">ベンガル語</string>
+    <string name="speak_language_type_19">その他</string>
+
+    <string name="purpose_type_1">婚活</string>
+    <string name="purpose_type_2">恋人探し</string>
+    <string name="purpose_type_3">友達探し</string>
+    <string name="purpose_type_4">メル友探し</string>
+    <string name="purpose_type_5">何となく</string>
+
+    <string name="use_time_type_1">不定期</string>
+    <string name="use_time_type_2">いつでも</string>
+    <string name="use_time_type_3">朝</string>
+    <string name="use_time_type_4">日中</string>
+    <string name="use_time_type_5">夕方</string>
+    <string name="use_time_type_6">夜</string>
+    <string name="use_time_type_7">深夜</string>
+
+    <string name="job_type_1">会社員</string>
+    <string name="job_type_2">医師</string>
+    <string name="job_type_3">弁護士・会計士</string>
+    <string name="job_type_4">経営者・役員</string>
+    <string name="job_type_5">秘書・受付</string>
+    <string name="job_type_6">パイロット</string>
+    <string name="job_type_7">公務員</string>
+    <string name="job_type_8">商社</string>
+    <string name="job_type_9">銀行・金融</string>
+    <string name="job_type_10">教育関連</string>
+    <string name="job_type_11">医療・製薬関連</string>
+    <string name="job_type_12">福祉・介護・保育</string>
+    <string name="job_type_13">スポーツ関係</string>
+    <string name="job_type_14">コンサルティング関連</string>
+    <string name="job_type_15">テレビ・マスメディア関連</string>
+    <string name="job_type_16">芸能関係</string>
+    <string name="job_type_17">IT関連</string>
+    <string name="job_type_18">エンジニア・デザイナー</string>
+    <string name="job_type_19">ゲーム</string>
+    <string name="job_type_20">人材</string>
+    <string name="job_type_21">モノづくり関連</string>
+    <string name="job_type_22">農業・漁業</string>
+    <string name="job_type_23">機械・鉄鋼関連</string>
+    <string name="job_type_24">証券・不動産関連</string>
+    <string name="job_type_25">保険関連</string>
+    <string name="job_type_26">建築関連</string>
+    <string name="job_type_27">食品</string>
+    <string name="job_type_28">飲食</string>
+    <string name="job_type_29">旅行</string>
+    <string name="job_type_30">百貨店</string>
+    <string name="job_type_31">運輸・交通</string>
+    <string name="job_type_32">美容関連</string>
+    <string name="job_type_33">ファッション</string>
+    <string name="job_type_34">エンターテインメント</string>
+    <string name="job_type_35">事務</string>
+    <string name="job_type_36">接客業</string>
+    <string name="job_type_37">サービス業</string>
+    <string name="job_type_38">学生</string>
+    <string name="job_type_39">主婦</string>
+    <string name="job_type_40">定年</string>
+    <string name="job_type_41">フリーター</string>
+    <string name="job_type_42">ニート</string>
+    <string name="job_type_43">自由業</string>
+
+    <string name="personality_type_1">優しい</string>
+    <string name="personality_type_2">素直</string>
+    <string name="personality_type_3">穏やか</string>
+    <string name="personality_type_4">さわやか</string>
+    <string name="personality_type_5">親しみやすい</string>
+    <string name="personality_type_6">明るい</string>
+    <string name="personality_type_7">楽観的</string>
+    <string name="personality_type_8">いつも笑顔</string>
+    <string name="personality_type_9">真面目</string>
+    <string name="personality_type_10">知的</string>
+    <string name="personality_type_11">誠実</string>
+    <string name="personality_type_12">几帳面</string>
+    <string name="personality_type_13">照れ屋</string>
+    <string name="personality_type_14">上品</string>
+    <string name="personality_type_15">落ち着いている</string>
+    <string name="personality_type_16">謙虚</string>
+    <string name="personality_type_17">厳格</string>
+    <string name="personality_type_18">冷静沈着</string>
+    <string name="personality_type_19">奥手</string>
+    <string name="personality_type_20">仕事好き</string>
+    <string name="personality_type_21">決断力がある</string>
+    <string name="personality_type_22">責任感がある</string>
+    <string name="personality_type_23">気が利く</string>
+    <string name="personality_type_24">マメ</string>
+    <string name="personality_type_25">思いやりがある</string>
+    <string name="personality_type_26">面倒見が良い</string>
+    <string name="personality_type_27">家庭的</string>
+    <string name="personality_type_28">インドア</string>
+    <string name="personality_type_29">アウトドア</string>
+    <string name="personality_type_30">さびしがり</string>
+    <string name="personality_type_31">社交的</string>
+    <string name="personality_type_32">話し上手</string>
+    <string name="personality_type_33">聞き上手</string>
+    <string name="personality_type_34">好奇心旺盛</string>
+    <string name="personality_type_35">行動的</string>
+    <string name="personality_type_36">合理的</string>
+    <string name="personality_type_37">気前がいい</string>
+    <string name="personality_type_38">負けず嫌い</string>
+    <string name="personality_type_39">面白い</string>
+    <string name="personality_type_40">熱い</string>
+    <string name="personality_type_41">大胆</string>
+    <string name="personality_type_42">裏表がない</string>
+    <string name="personality_type_43">マイペース</string>
+    <string name="personality_type_44">天然と言われる</string>
+    <string name="personality_type_45">気分屋</string>
+    <!-- enum label end-->
+
+    <string name="common_ok">OK</string>
+    <string name="common_ng">NG</string>
+
+    <!-- button common start-->
+    <string name="button_common_ok">OK</string>
+    <string name="button_common_cancel">キャンセル</string>
+    <string name="button_common_retry">リトライ</string>
+    <string name="button_common_filter_remove_retry">検索条件をクリア</string>
+    <!-- button common end-->
+
+    <!-- dialog common start-->
+    <string name="dialog_common_ok">OK</string>
+    <string name="dialog_common_cancel">キャンセル</string>
+    <string name="dialog_common_title_err">エラー</string>
+    <string name="dialog_common_message_api_err">しばらく時間をおいて再度お試しください</string>
+    <string name="dialog_common_message_network_err">接続に失敗しました。\n\n下記のいずれかをお試しください。\n\n①電波の良いところでリトライ\n②時間をおいてリトライ\n③再起動してリトライ</string>
+    <string name="dialog_common_empty">未入力です。</string>
+    <string name="dialog_common_title_network_err">通信エラー</string>
+    <!-- dialog common end-->
+
+    <!-- progress_dialog common start-->
+    <string name="progress_dialog_download_now">データを取得しています。</string>
+    <string name="progress_dialog_updating_now">更新中</string>
+    <string name="progress_dialog_connecting_now">接続中...</string>
+    <!-- progress_dialog common end-->
+
+    <!-- activity_welcome start-->
+    <string name="welcome_btn_ok">OK</string>
+    <!-- activity_welcome end-->
+
+    <!-- fragment_board start-->
+    <string name="top_area_thread_name">%1$s・%2$s</string>
+    <string name="top_prefecture_thread_name">%1$s・すべて</string>
+    <string name="top_list_empty">投稿がありません</string>
+    <string name="top_post_alert_title_interval">%d分以内の連続投稿はできません。</string>
+    <string name="top_post_alert_message_interval">しばらく待ってから投稿して下さい。</string>
+    <string name="top_post_failure_title">送信失敗</string>
+    <string name="top_post_failure_message">電波状況を確認して再度お試しください。</string>
+    <string name="top_receive_login_bonus">デイリーログインボーナス!! \n\n今日も来てくれてありがとう!! \n%dpt プレゼント!!</string>
+    <string name="top_receive_login_bonus_button">ありがとう★</string>
+    <string name="top_help_dialog_title">『掲示板』ページの説明</string>
+    <string name="top_help_dialog_body">&lt;font color=\"#D37F8F\"&gt;✔&lt;/font&gt; 掲示板は地域ごとの掲示板に書き込みます&lt;br&gt;&lt;br&gt;&lt;font color=\"#D37F8F\"&gt;✔&lt;/font&gt; 上部で「性別・掲示板の地域・年齢」が絞れます&lt;br&gt;&lt;br&gt;&lt;font color=\"#D37F8F\"&gt;✔&lt;/font&gt; 右下の「投稿」ボタンで投稿しましょう</string>
+    <string name="top_confirm_finish">アプリを終了しますか？</string>
+    <string name="top_dialog_lets_call_title">通話に誘いましょう!!</string>
+    <string name="top_dialog_lets_call_body">『通話しましょう!!』\n\nという内容で投稿しますか？</string>
+    <string name="top_dialog_lets_call_message">通話しましょう!!</string>
+    <string name="top_dialog_new_user_login_bonus_title">新規登録ボーナス</string>
+    <string name="top_dialog_new_user_login_bonus_body">登録後7日間で\n「総額%s円分」のポイントをプレゼント!!</string>
+    <string name="top_dialog_new_user_login_bonus_button">%dpt 受け取る</string>
+    <string name="top_dialog_login_bonus_title">本日の\nログインボーナス</string>
+    <string name="top_dialog_login_bonus_body_no_ad">3日連続でログインして、合計%1$dptを\nゲットしよう!!（毎日0時に更新されます）</string>
+    <string name="top_dialog_login_bonus_date">%1$d日目\n%2$dpt</string>
+    <string name="top_dialog_login_bonus_date_finished">%1$d日目\n✓ %2$dpt</string>
+    <string name="top_dialog_login_bonus_date_present">%1$d日目\n🎁 %2$dpt</string>
+    <string name="top_dialog_login_bonus_receive">ありがとう</string>
+    <string name="top_dialog_login_bonus_next">明日もお待ちしております!!\n（明日起動しない場合は1日目からスタートできます）</string>
+    <string name="top_dialog_login_bonus_last">明日もお待ちしております!!\n（次回からまた1日目のスタートです）</string>
+    <string name="top_dialog_login_bonus_thankyou">THANK YOU</string>
+    <string name="top_login_bonus_login_banner_message">本日のログインボーナスが受け取れます</string>
+    <string name="top_login_bonus_login_banner_star">%1$d</string>
+    <string name="top_tab_sale">SALE</string>
+    <string name="top_tab_standby">待機中</string>
+    <!-- fragment_board end-->
+
+    <!-- activity_top start-->
+    <string name="top_tab_board">掲示板</string>
+    <string name="top_tab_search">さがす</string>
+    <string name="top_tab_call_phone">通話</string>
+    <!-- activity_top end-->
+
+    <!-- fragment_search start-->
+    <string name="search_wink_btn">いいね</string>
+    <string name="search_user_zero_match">ユーザーが見つかりませんでした</string>
+    <string name="search_connection_error">接続に失敗しました</string>
+    <string name="search_help_dialog_title">『さがす』ページの説明</string>
+    <string name="search_help_dialog_body">&lt;font color=\"#D37F8F\"&gt;✔&lt;/font&gt; ログインすると上部に表示されます&lt;br&gt;&lt;br&gt;&lt;font color=\"#D37F8F\"&gt;✔&lt;/font&gt; 足あとを残さずに「♥いいね」が送れます&lt;br&gt;&lt;br&gt;&lt;font color=\"#D37F8F\"&gt;✔&lt;/font&gt; 全ユーザーが表示されます&lt;br&gt;&lt;br&gt;&lt;font color=\"#D37F8F\"&gt;✔&lt;/font&gt; 上部で性別と地域と年齢を絞れます&lt;br&gt;&lt;br&gt;&lt;font color=\"#D37F8F\"&gt;✔&lt;/font&gt; 画面全体を下に引っ張って離すと更新できます&lt;br&gt;&lt;br&gt;※自分は表示されません&lt;br&gt;※メールのやり取りがある人は表示されません&lt;br&gt;※ブロックしている・されている人は表示されません</string>
+    <string name="search_remaining_like_count">残♡%d</string>
+
+    <!-- fragment_search end-->
+
+    <!-- activity_user start-->
+    <string name="user_template_mail_btn_title">定型文</string>
+
+    <string name="user_favorite_btn_title">いいね</string>
+    <string name="user_favorite_btn_title_end">いいね済</string>
+    <string name="user_mail_btn_title">メールする</string>
+    <string name="user_call_phone_btn_title">通話する</string>
+    <string name="user_call_phone_btn_title_for_request">通話リクエスト</string>
+    <string name="user_call_phone_btn_title_for_requested">通話リクエスト済</string>
+    <string name="user_call_phone_btn_title_for_incompatible">通話\n非対応</string>
+    <string name="user_call_phone_btn_title_for_connect_error">⚠再取得</string>
+    <string name="user_call_phone_btn_title_for_connecting">通信中&#8230;</string>
+
+    <string name="user_video_call_btn_title">ビデオ通話</string>
+    <string name="user_video_call_btn_title_for_request">ビデオ通話\nリクエスト</string>
+    <string name="user_video_call_btn_title_for_requested">ビデオ通話\nリクエスト済</string>
+    <string name="user_video_call_btn_title_for_incompatible">ビデオ通話\n非対応</string>
+    <string name="user_video_call_btn_title_for_connect_error">⚠再取得</string>
+    <string name="user_video_call_btn_title_for_connecting">通信中&#8230;</string>
+
+    <string name="user_menu_alert_title">選択して下さい</string>
+    <string name="user_menu_alert_block">ブロックする</string>
+    <string name="user_menu_alert_report">通報する</string>
+
+    <string name="user_confirm_title">確認</string>
+    <string name="user_block_confirm">%sさんをブロックしますか？\n\n※ブロックすると相手からあなたを見ることはできますが、あなたのメール一覧と掲示板から該当ユーザーが消えます。</string>
+    <string name="user_alert_title_failure">エラー</string>
+    <string name="user_block_alert_failure">ブロックに失敗しました。\nしばらく時間をおいて再度お試しください</string>
+    <string name="user_block_alert_success">ブロックに成功しました</string>
+
+    <string name="user_report_alert_failure">通報に失敗しました。\nしばらく時間をおいて再度お試しください</string>
+    <string name="user_report_alert_success">ご協力ありがとうございました。\n\nサポートチームにて確認させていただきます。\n\n※通報は該当ユーザーの退会を保証するものではありません。サポートチームの判断で対処が行われます。</string>
+
+    <string name="user_wink_alert_failure">いいねに失敗しました。\nしばらく時間をおいて再度お試しください</string>
+
+    <string name="user_send_message_succeeded">送信成功</string>
+    <string name="user_sent_message">メッセージを送信しました</string>
+
+    <string name="user_style">体型：%s</string>
+    <string name="user_blood_type">血液型：%s</string>
+    <string name="user_drinking">飲酒：%s</string>
+    <string name="user_smoking">喫煙：%s</string>
+
+    <string name="user_help_dialog_title">『プロフ』の説明</string>
+    <string name="user_help_dialog_body">&lt;font color=\"#D37F8F\"&gt;✔&lt;/font&gt; 「♥いいね」はお気に入りのサインです（1人に対して1回まで）&lt;br&gt;&lt;br&gt;&lt;font color=\"#D37F8F\"&gt;✔&lt;/font&gt; 右上の「メニュー」からブロックできます</string>
+
+    <string name="user_board_history_head">過去の投稿</string>
+    <string name="user_board_history_link">すべて見る ＞</string>
+
+
+    <string name="user_join_community">参加しているコミュニティ</string>
+    <string name="user_join_community_link">すべて見る ＞</string>
+    <!-- activity_user start-->
+
+    <!-- activity_my_page_main start-->
+    <string name="my_page_header_title_1">基本情報</string>
+    <string name="my_page_header_title_2">恋活に関する情報</string>
+    <string name="my_page_header_title_3">婚活に関する情報</string>
+    <string name="my_page_title">マイページ</string>
+    <string name="my_page_btn_change">変更</string>
+    <string name="my_page_key">あなたのキー</string>
+    <string name="my_page_name">ニックネーム</string>
+    <string name="my_page_birthday">生年月</string>
+    <string name="my_page_update_failure">更新失敗</string>
+    <string name="my_page_progress_message">更新中</string>
+    <string name="my_page_popup_title">プロフィールを充実して50pt</string>
+    <string name="my_page_popup_message">プロフィールが充実していると、仲良くなる確率が大幅アップ!!\n今なら、プロフィール（コメントは30文字以上）を登録すると、50ptがもらえます!!\n\nプロフィールの登録をしますか？</string>
+    <string name="my_page_complete_profile_title">おめでとうございます!!</string>
+    <string name="my_page_complete_profile_message">プロフィール登録が完了しました!!\n50ptをプレゼント!!</string>
+    <string name="my_page_recommend_app_title">おすすめのアプリ</string>
+    <string name="my_page_recommend_app_description">今すぐ無料でインストール!!</string>
+    <string name="my_page_comment_remaining">(あと %d文字以上で達成)</string>
+    <string name="my_page_comment_achieved">(達成条件を満たしています)</string>
+    <string name="my_page_comment_remaining_achieved">(あと %d文字まで入力可能)</string>
+    <string name="my_page_profile_image">プロフィール画像</string>
+    <string name="my_page_profile_check">相手から見た自分のプロフィールを確認する ＞</string>
+
+    <string name="my_page_change_birthday">生年月は一度だけ変更可能です\n生年月を変更しますか？</string>
+    <string name="my_page_change_image_alert_title">画像についての注意事項</string>
+    <string name="my_page_change_image_alert_body">よくあるNG例\n・公序良俗に反する\n・性的アピールが強い\n・他人の顔写真の転用\n\n※写真は審査後に反映されます\n※たとえ自分の写真でもインターネット上に公開されているものは削除される可能性があります\n\nあなたの写真は上記のNG例に該当していませんか？</string>
+    <!-- activity_my_page_main end-->
+
+    <!-- activity_board_histories start-->
+    <string name="board_user_zero_match">投稿がありません</string>
+    <string name="board_connection_error">接続に失敗しました</string>
+    <string name="board_report_user">このユーザーを通報する</string>
+    <string name="board_report_user_block">このユーザーをブロックする</string>
+    <string name="board_report_post">この投稿を通報する</string>
+
+    <string name="dialog_report_title">通報</string>
+    <string name="dialog_report_title_body">不適切なユーザーを通報して、パトロールにご協力ください。\nみんなで良い掲示板にしていきましょう！</string>
+    <string name="dialog_report_title_body_for_board">不適切な投稿を通報して、パトロールにご協力ください。\nみんなで良い掲示板にしていきましょう！</string>
+    <string name="dialog_report_input_hint">詳細を入力（1000文字以内）</string>
+    <string name="dialog_report_input_info">コメント (任意)</string>
+    <string name="dialog_report_input_check">対象ユーザーをブロックする</string>
+    <string name="dialog_report_board_complete">ご協力ありがとうございました。\n\nサポートチームにて確認させていただきます。</string>>
+    <string name="dialog_report_violate_type_title">違反の種類 (※必須)</string>
+
+    <string name="dialog_report_edit_message_title">通報コメント</string>
+
+    <string name="board_histories_title">過去の投稿</string>
+    <string name="board_histories_zero_match">投稿がありません</string>
+    <string name="board_histories_error">接続に失敗しました</string>
+    <string name="board_histories_all_delete">全削除</string>
+
+    <string name="board_histories_delete_title">投稿をすべて削除</string>
+    <string name="board_histories_delete_body">すべての投稿を削除します。\nよろしいですか?</string>
+    <string name="board_histories_delete_remind_title">本当に削除してもよろしいですか？</string>
+    <string name="board_histories_delete_remind_body">削除すると投稿した内容はすべて削除され、もとに戻すことはできません</string>
+    <string name="board_histories_delete_positive">投稿をすべて削除する</string>
+
+    <string name="board_histories_delete_complete">すべての投稿を削除しました</string>
+    <!-- activity_board_histories finish-->
+
+
+    <!-- activity_penalty start-->
+    <string name="penalty_title">利用制限について</string>
+    <string name="penalty_body">大変申し訳ございませんが、以下の理由でアプリの利用が制限されております</string>
+    <string name="penalty_body_reason">理由</string>
+    <string name="penalty_body_ban">不正行為防止のため</string>
+    <string name="penalty_body_ban_postscript">※この決定に不服がある場合は、お問い合わせよりご連絡ください。（対応の保証はしておりません）</string>
+    <string name="penalty_body_gender_is_man">女性専用アプリのため、男性はアプリを利用できません</string>
+    <string name="penalty_body_under_eighteen">18歳未満のため</string>
+    <string name="penalty_body_under_eighteen_postscript">※生年月日を誤ってご登録された方は、お問い合わせから正しい生年月日をお教えください。</string>
+    <string name="penalty_inquiry_button">お問い合わせ</string>
+    <string name="penalty_app_finish_button">アプリを閉じる</string>
+    <!-- activity_penalty finish-->
+
+    <!-- activity_option start-->
+    <string name="option_title">その他</string>
+    <string name="option_current_version">アプリのバージョン</string>
+    <string name="option_heading_setting">個人設定</string>
+    <string name="option_heading_top_content">トップコンテンツ</string>
+    <string name="option_heading_push">通知</string>
+    <string name="option_heading_support">サポート</string>
+    <string name="option_heading_other">アプリについて</string>
+    <string name="option_my_page">マイページ</string>
+    <string name="option_greeting_mail">あいさつメール</string>
+    <string name="option_mission">ボーナスミッション</string>
+    <string name="option_footprint">足あと</string>
+    <string name="option_friend_invitation">友達紹介</string>
+    <string name="option_vibration">バイブレーション</string>
+    <string name="option_order_by_unread">未読メールを先頭に表示</string>
+    <string name="option_age_verification">年齢確認</string>
+    <string name="option_information">ニュース</string>
+    <string name="option_price_description">料金説明</string>
+    <string name="option_notification">通知</string>
+    <string name="option_call_phone_permit">着信許可（音声）</string>
+    <string name="option_video_call_permit">着信許可（ビデオ）</string>
+    <string name="option_service_guide">かんたんガイド</string>
+    <string name="option_banned_item">NG行為</string>
+    <string name="option_agreement">利用規約</string>
+    <string name="option_law">特商法</string>
+    <string name="option_license">ライセンス</string>
+    <string name="option_privacy_policy">プライバシーポリシー</string>
+    <string name="option_inquiry">お問い合わせ</string>
+    <string name="option_leave">退会する</string>
+    <string name="option_leave_complete_message">退会が完了しました。\nご利用ありがとうございました。</string>
+    <string name="option_inquiry_subject">GIFT CHAT(A)について</string>
+    <string name="option_leave_confirm_title">退会しますか？</string>
+    <string name="option_leave_confirm_message">【注意１】\n退会すると、アプリにあるコンテンツからユーザープロフィールが削除されます。送信したメッセージなど、コンテンツによっては情報が残る可能性があります。\n\n【注意２】\nまた、貯めたptも無効となり、復元は不可能です。\n\n【注意３】\n退会をしても、アプリ自体が削除されることはございませんので、各自でアンインストールをお願いします。\n\n【注意４】\n不正利用防止のため、同じ端末で新規登録を試みた場合、退会済のアカウントが自動復旧されますが、掲示板投稿やメッセージは復旧されません。</string>
+    <string name="option_inquiry_info">端末、アプリの情報</string>
+    <string name="do_not_delete_this_message">※以下の情報は消さずにお送りください</string>
+    <string name="option_my_page_bonus">登録してポイントをゲット!!</string>
+
+    <string name="option_age_verification_bonus">確認して50ptをゲット!!</string>
+    <string name="option_age_verification_pending">確認中</string>
+    <string name="option_age_verification_complete">確認済</string>
+    <string name="option_friend_invitation_bonus">紹介してポイントをゲット!!</string>
+    <string name="option_mission_bonus">ポイントをゲット!!</string>
+    <string name="option_push_mail">メール通知</string>
+    <string name="option_push_favorite">いいね通知</string>
+    <string name="option_push_footprint">足あと通知</string>
+    <string name="option_push_other">その他の通知</string>
+    <string name="option_push_with_image">通知に画像を表示</string>
+    <string name="option_block_user">ブロックしたユーザー</string>
+    <string name="option_create_template">定型文をつくる</string>
+    <!-- activity_option end-->
+
+    <!-- activity_mail_list start-->
+    <string name="mail_list_tab_all">全て</string>
+    <string name="mail_list_tab_favorite">お気に入り</string>
+    <string name="mail_list_favorite">☆お気に入り</string>
+    <string name="mail_list_already_favorite">&lt;font color=\"#ffcc29\"&gt;★&lt;/font&gt;お気に入り済</string>
+    <string name="mail_list_unread">未読%d</string>
+    <string name="mail_list_total_count">既読%d</string>
+    <string name="mail_list_header_favorite_only">お気に入りのみを表示</string>
+    <string name="mail_list_header_no_reply_only">未返信のみを表示</string>
+
+    <!-- activity_mail_list start-->
+    <string name="mail_list_title">メール</string>
+    <string name="mail_list_footer_empty">まだメールがありません</string>
+    <string name="mail_list_footer_empty_favorite">まだメールがありません\n\n左側のタブで\n「☆お気に入り」を押すことで追加できます。</string>
+    <string name="mail_list_all_already_read_button">全て既読</string>
+    <string name="mail_list_all_already_read_message">全てのメールを既読にします。よろしいですか？</string>
+    <string name="mail_list_delete_dialog_title">本当に削除しますか？</string>
+    <string name="mail_list_delete_dialog_body">この操作は元に戻せません。\n(相手のメールボックスからは削除されません)</string>
+    <string name="mail_list_order_by_unread_dialog_title">メールの表示順を設定</string>
+    <string name="mail_list_order_by_unread_dialog_message">未読メールを優先して先頭に表示しますか？\n後で「その他」タブから変更することもできます。\n(デフォルトでは日付順になります。)</string>
+    <string name="mail_list_help_dialog_title">『メール』ページの説明</string>
+    <string name="mail_list_help_dialog_body">&lt;font color=\"#FF0000\"&gt;✔&lt;/font&gt; あなた宛のメールが届きます&lt;br&gt;&lt;br&gt;&lt;font color=\"#FF0000\"&gt;✔&lt;/font&gt; 受信メールは無料で見ることができます&lt;br&gt;&lt;br&gt;&lt;font color=\"#FF0000\"&gt;✔&lt;/font&gt; メール1通は★1で送信できます&lt;br&gt;&lt;br&gt;&lt;font color=\"#FF0000\"&gt;✔&lt;/font&gt; メール一覧の ☆お気に入り をタップすると「お気に入り」に追加できます&lt;br&gt;&lt;br&gt;&lt;font color=\"#FF0000\"&gt;✔&lt;/font&gt; 未読メールのみを上位表示したい場合は、「その他」タブから設定可能です&lt;br&gt;&lt;br&gt;&lt;font color=\"#FF0000\"&gt;✔&lt;/font&gt; メール一覧で長押しすると、削除することができます&lt;br&gt;&lt;br&gt;&lt;font color=\"#FF0000\"&gt;✔&lt;/font&gt; 退会されたユーザーは表示されません</string>
+    <!-- activity_mail_list end-->
+
+    <!-- activity_mail_detail start-->
+    <string name="mail_detail_send_failure">メッセージの送信に失敗しました。\nしばらく時間をおいて再度お試しください</string>
+    <string name="mail_detail_send_progress">処理中</string>
+    <string name="mail_detail_send">送信</string>
+
+    <string name="mail_detail_long_click_item_copy">コピー</string>
+    <string name="mail_detail_long_click_item_cancel">キャンセル</string>
+    <string name="mail_detail_long_click_item_copy_finish">コピーしました</string>
+
+    <string name="mail_detail_send_wink_button">いいねを返す</string>
+
+    <string name="mail_detail_create_template_message">自分だけの定型文を作成する</string>
+    <!-- activity_mail_detail end-->
+
+    <!-- activity_foot_print start-->
+    <string name="foot_print_title">足あと</string>
+    <string name="foot_print_empty_text">まだ足あとがありません。\n誰かがあなたのプロフを見ると足あとがつくよ♪</string>
+    <string name="foot_print_connection_error">接続に失敗しました</string>
+    <string name="foot_print_help_dialog_title">『足あと』ページの説明</string>
+    <string name="foot_print_help_dialog_body">&lt;font color=\"#D37F8F\"&gt;✔&lt;/font&gt; 1週間以内にあなたのプロフィールを見た人が表示されます&lt;br&gt;&lt;br&gt;&lt;font color=\"#D37F8F\"&gt;✔&lt;/font&gt; あなたのことが気になっているということですので、ぜひメールを送りましょう</string>
+    <!-- activity_foot_print finish-->
+
+    <!-- dialog_prefecture_area start-->
+    <string name="dialog_pa_select_area">地域選択</string>
+    <string name="dialog_pa_select_home_town">出身地選択</string>
+    <string name="dialog_pa_select_post_area">投稿する掲示板を選択してください</string>
+    <string name="dialog_pa_prefecture">都道府県</string>
+    <string name="dialog_pa_area">エリア</string>
+    <string name="dialog_pa_area_all">すべて</string>
+    <string name="dialog_pa_btn_cancel">キャンセル</string>
+    <string name="dialog_pa_btn_ok">OK</string>
+    <!-- dialog_prefecture_area end-->
+
+    <!-- register_top start-->
+    <string name="register_top_title">ようこそ</string>
+    <string name="register_top_message">シンプルで簡単なユーザー登録です</string>
+    <string name="register_top_nickname">ニックネーム</string>
+    <string name="register_top_nickname_hint">名無し</string>
+    <string name="register_top_area">地域</string>
+    <string name="register_top_area_hint">東京都・新宿区</string>
+    <string name="register_top_gender">性別\n(変更不可)</string>
+    <string name="register_top_gender_male">男性</string>
+    <string name="register_top_gender_female">女性</string>
+    <string name="register_top_birthday_info">※プロフには年齢しか表示されません</string>
+    <string name="register_top_birthday">生年月\n(変更不可)</string>
+    <string name="register_top_positive_button">スタート</string>
+    <string name="register_top_negative_button">データ引き継ぎ</string>
+    <string name="register_top_ban_dialog_title">NOTICE</string>
+    <string name="register_top_ban_dialog_message">不正利用防止のため、アクセスが制限されております。\n\n心当たりのない方は、サポートまでご連絡ください。\n\nご利用ありがとうございました。</string>
+    <!-- register_top end-->
+
+    <!-- register_confirm start-->
+    <string name="register_confirm_title">確認画面</string>
+    <string name="register_confirm_nickname">ニックネーム</string>
+    <string name="register_confirm_area">地域</string>
+    <string name="register_confirm_gender">性別(変更不可)</string>
+    <string name="register_confirm_birthday">生年月(変更不可)</string>
+    <string name="register_confirm_message">&lt;font color=\"#0000FF\"&gt;&lt;u"&gt;利用規約&lt;/u"&gt;&lt;/font&gt; に同意し、上記の内容で登録します、よろしいですか？</string>
+    <string name="register_confirm_positive_button">スタート</string>
+    <string name="register_confirm_negative_button">修正する</string>
+    <!-- register_top end-->
+
+    <!-- register_result start-->
+    <string name="register_result_title">おめでとうございます</string>
+    <string name="register_result_message">ユーザー登録が完了しました\n新規登録ボーナスとして、%1$dptをプレゼント!!</string>
+    <string name="register_result_positive_button">%dptを受け取る</string>
+    <!-- register_result end-->
+
+    <!-- register_result_two start-->
+    <string name="register_result_two_title">データ引き継ぎ情報</string>
+    <string name="register_result_two_message">あなたのキーはこちらです</string>
+    <string name="register_result_two_info">機種変更をするときには「ニックネーム」と、こちらの「キー」が必要ですので、メモしておきましょう。\n※「その他＞マイページ」からいつでも確認できます</string>
+    <!-- register_result_two end-->
+
+    <!-- register_idfa start-->
+    <string name="register_idfa_title">アカウントを復旧しました</string>
+    <string name="register_idfa_message">不正利用防止のため、1端末につき1アカウントまでとさせていただきます</string>
+    <string name="register_idfa_first_head">再インストールされた方</string>
+    <string name="register_idfa_first_info">そのままお使いください</string>
+    <string name="register_idfa_first_hint">※過去のメールを全て未読メールとして受信しますので、お手数ですが「すべて既読」機能をお使いください</string>
+    <string name="register_idfa_second_head">以前退会された方</string>
+    <string name="register_idfa_second_info">掲示板投稿と過去のメールはすべて削除されております。</string>
+    <string name="register_idfa_second_hint">※生年月日を変更したい場合は、事務局までお問い合わせください</string>
+    <!-- register_idfa end-->
+
+    <!-- register_takeover start-->
+    <string name="register_takeover_message">以前お使いのニックネームとキー（数字9桁）\nを入力してください</string>
+    <string name="register_takeover_nickname">ニックネーム</string>
+    <string name="register_takeover_nickname_hint">入力してください</string>
+    <string name="register_takeover_key">キー</string>
+    <string name="register_takeover_key_hint">数字9桁</string>
+
+    <string name="register_takeover_account_alert_title_err">入力エラー</string>
+    <string name="register_takeover_account_alert_message_err_nickname_empty">ニックネームが未入力です。</string>
+    <string name="register_takeover_account_alert_message_err_key_empty">キーが未入力です。</string>
+    <string name="register_takeover_account_alert_message_err_key_format">キーは数字9文字で入力してください。</string>
+    <string name="register_takeover_acoount_alert_title_not_found">認証エラー</string>
+    <string name="register_takeover_acoount_alert_message_not_found">入力された情報のユーザーが見つかりません。</string>
+    <string name="register_takeover_acoount_alert_title_success">ログイン成功</string>
+
+    <!-- register_takeover end-->
+
+    <!-- activity_maintenance start-->
+    <string name="activity_maintenance_title">メンテナンス中です</string>
+    <string name="activity_maintenance_message">ご迷惑をおかけし、大変申し訳ございません。\nメンテナンス終了まで今しばらくお待ちください。</string>
+    <string name="activity_maintenance_btn">アプリを閉じる</string>
+    <!-- activity_maintenance end-->
+
+    <!-- activity_new_version start-->
+    <string name="activity_new_version_message">新しいバージョンがあります。\nアップデートを行って下さい。\n\n※もしアップデート後もこの表示が出る場合は、アップデートが正常に完了していない可能性が御座いますので、スマートフォンの再起動をお願いします。</string>
+    <string name="activity_new_version_inquiry_btn">お問い合わせ</string>
+    <string name="activity_new_version_btn">更新する</string>
+    <!-- activity_new_version end-->
+
+    <!-- activity_age_verification start-->
+    <string name="activity_age_verification_already_message">既に年齢確認済みです</string>
+    <string name="activity_age_verification_now_check">ただいま年齢確認中です。\n年齢確認は通常、3分〜24時間以内に完了します。\n完了すると公式サポートよりアプリ内のメールにてお知らせします。</string>
+
+    <string name="activity_age_verification_title">年齢確認</string>
+    <string name="activity_age_verification_description">青少年がトラブルに巻き込まれることを防ぐため、18歳以上であることを確認させていただいております。</string>
+    <string name="activity_age_verification_description_two">【期間限定】年齢確認が完了した方に50ptをプレゼント!!</string>
+    <string name="activity_age_verification_header_title_one">①年齢確認書類を１つ用意する</string>
+    <string name="activity_age_verification_header_title_two">②年齢確認書類を撮影する</string>
+    <string name="activity_age_verification_body_two">つぎの3つが必ず写るように撮影してください\n\n・生年月日\n・証明書の名称\n・発行者名\n\n※個人情報（顔写真や名前、住所など）は加工ツールで塗りつぶせます\n※プロフィールの生年月日と同じである必要はありません。</string>
+    <string name="activity_age_verification_header_title_third">③送信して完了</string>
+    <string name="activity_age_verification_body_third">年齢確認は通常、3分〜24時間以内に完了します。\n完了すると公式サポートよりアプリ内のメールにてお知らせします。\n\n※いただいた画像は年齢確認のためだけに使用し、転用・流出はいたしません。</string>
+    <string name="activity_age_verification_button_name">証明書を撮影する</string>
+
+    <string name="activity_age_verification_edit_title">加工する</string>
+    <string name="activity_age_verification_edit_body">※写真をなぞると、隠したい部分を隠せます\n※つぎの3つが必ず写るように撮影してください\n・生年月日\n・証明書の名称\n・発行者名</string>
+    <string name="activity_age_verification_edit_reset_button_name">このボタンで加工をリセットできます</string>
+    <string name="activity_age_verification_edit_send_button_name">送信する</string>
+
+    <string name="activity_age_verification_other">その他の書類</string>
+    <string name="activity_age_verification_other_link">その他の書類 ＞</string>
+    <string name="activity_age_verification_other_header_title">本人確認書類として利用可能なもの</string>
+    <string name="activity_age_verification_other_list">運転免許証\nパスポート\n健康保険証\nマイナンバーカード\n学生証\n\n住民基本台帳カード\n個人番号カード\n国民年金手帳\n年金手帳\n年金証書\n身体障害者手帳\n療育手帳\n精神障害者保健福祉手帳\n共済組合員証\n共済年金または恩給等の証書\n\n外国人登録証明書\n在留カード\n特別永住者証明書\nタスポカード\n\n船員手帳\n海技免状\n小型船舶操縦免許証\n猟銃・空気銃所持許可証\n戦傷病者手帳\n宅地建物取引士証\n電気工事士免状\n無線従事者免許証\n認定電気工事従事者認定証\n特種電気工事資格者認定証\n耐空検査員の証\n航空従事者技能証明書\n運航管理者技能検定合格証明書\n動力車操縦者運転免許証\n教習資格認定証\n官公庁や特殊法人等が発行した身分証明書で写真付のもの\n運転経歴証明書</string>
+
+    <!-- activity_age_verification end-->
+
+    <!-- dialog_age_verification start-->
+    <string name="dialog_age_verification_image_select_title">証明書を撮影する</string>
+    <string name="dialog_age_verification_image_select_body">※個人情報（顔写真や名前、住所など）は加工ツールで塗りつぶせます。</string>
+    <string name="dialog_age_verification_image_select_positive_button">写真を撮る</string>
+    <string name="dialog_age_verification_image_select_negative_button">写真を選択</string>
+    <string name="dialog_age_verification_image_select_neutral_button">キャンセル</string>
+
+    <string name="dialog_age_verification_send_title">送信してもよろしいですか？</string>
+    <string name="dialog_age_verification_send_body">年齢確認は通常、3分〜24時間以内に完了します。\n完了すると公式サポートよりアプリ内のメールにてお知らせします。\n※いただいた画像は年齢確認のためだけに使用し、転用・流出はいたしません。</string>
+
+    <string name="dialog_age_verification_complete_title">送信が完了しました</string>
+    <string name="dialog_age_verification_complete_body">審査終了までお待ちください\n\n2営業日を経過しても審査が終了しない場合はお問い合わせください。\n（営業日：平日10-18時）</string>
+    <!-- dialog_age_verification end-->
+
+    <!-- dialog_template_message start-->
+    <string name="dialog_template_message_title">定型文</string>
+    <string name="dialog_template_message_wink">いいね</string>
+    <!-- dialog_template_message end-->
+
+    <!-- dialog_board_message_tutorial start-->
+    <string name="dialog_board_message_tutorial_title">初投稿で50ptをゲット</string>
+    <string name="dialog_board_message_tutorial_message">掲示板に下記内容で投稿しますか？\n\n地域\n%s\n\n内容\nはじめました、よろしくね!!</string>
+    <string name="dialog_board_message_tutorial_send_message">はじめました、よろしくね!!</string>
+
+    <string name="dialog_board_message_tutorial_complete_title">おめでとうございます!!</string>
+    <string name="dialog_board_message_tutorial_complete_message">掲示板に初投稿しました!!\n50ptをプレゼント!!</string>
+    <!-- dialog_board_message_tutorial start-->
+
+    <!-- dialog_select_photo start-->
+    <string name="dialog_select_photo_from_camera">写真撮影</string>
+    <string name="dialog_select_photo_from_library">ライブラリから選択</string>
+    <string name="dialog_select_photo_error_title">画像の読み込みに失敗しました</string>
+    <string name="dialog_select_photo_error_body">再度画像の選択をしてください。\n※このエラーが何度も出る場合は別の画像をご使用ください。</string>
+    <!-- dialog_select_photo end-->
+
+    <!-- dialog_send_board_message start-->
+    <string name="dialog_send_board_message_title">新規投稿</string>
+    <string name="dialog_send_board_message_hint">88文字以内で入力してください\n（NGワードを含んだ投稿は削除対象となります）</string>
+    <string name="dialog_send_board_message_positive_button">投稿する</string>
+    <string name="dialog_send_board_message_negative_button">キャンセル</string>
+    <string name="dialog_send_board_message_netural_button">定型文から選ぶ</string>
+    <string name="dialog_send_board_message_complete_message">投稿が完了しました</string>
+    <!-- dialog_send_board_message end-->
+
+    <!-- activity_top_tab start-->
+    <string name="activity_top_tab_mail">メール</string>
+    <string name="activity_top_tab_community">コミュニティ</string>
+    <string name="activity_top_tab_home">ホーム</string>
+    <string name="activity_top_tab_exchange">ギフト</string>
+    <string name="activity_top_tab_setting">その他</string>
+    <!-- activity_top_tab end-->
+
+    <!-- dialog_template_board_message start-->
+    <string name="dialog_template_board_message_title">掲示板投稿 定型文</string>
+    <!-- dialog_template_board_message end-->
+
+    <!-- activity_license start-->
+    <string name="activity_license_title">ライセンス</string>
+    <string name="activity_license_adjust_name">adjust-android</string>
+    <string name="activity_license_adjust_body">Copyright (c) 2012-2017 adjust GmbH,\nhttp://www.adjust.com\n\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n"Software"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</string>
+    <string name="activity_license_shortcut_badger_name">ShortcutBadger</string>
+    <string name="activity_license_shortcut_badger_body">Copyright 2014 Leo Lin\n\n\nLicensed under the Apache License, Version 2.0 (the "License");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an "AS IS" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License.</string>
+    <string name="activity_license_android_crop_name">android-crop</string>
+    <string name="activity_license_android_crop_body">Copyright 2016 SoundCloud\n\nLicensed under the Apache License, Version 2.0 (the "License");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\n   http://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an "AS IS" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License.</string>
+    <string name="activity_license_http_mine_name">httpmime</string>
+    <string name="activity_license_http_core_name">httpcore</string>
+    <string name="activity_license_aos_common_body">Copyright (c) 2005-2013, The Android Open Source Project\n\nLicensed under the Apache License, Version 2.0 (the "License");\nyou may not use this file except in compliance with the License.\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an "AS IS" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License.</string>
+    <string name="activity_license_rounded_image_view_name">roundedimageview</string>
+    <string name="activity_license_rounded_image_view_body">Copyright 2017 Vincent Mi\n\nLicensed under the Apache License, Version 2.0 (the "License");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\n   http://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an "AS IS" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License.</string>
+    <string name="activity_license_gson_name">gson</string>
+    <string name="activity_license_gson_body">Copyright 2008 Google Inc.\n\nLicensed under the Apache License, Version 2.0 (the "License");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\n    http://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an "AS IS" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License.</string>
+    <string name="activity_license_skyway_name">SkyWay</string>
+    <string name="activity_license_skyway_body">Copyright 2017 NTT Communications Corporation, http://www.ntt.com\n\nLicensed under the Apache License, Version 2.0 (the "License");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\n    http://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an "AS IS" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License.</string>
+    <string name="activity_license_disk_lru_cache_name">DiskLruCache</string>
+    <string name="activity_license_disk_lru_cache_body">Copyright 2012 Jake Wharton\nCopyright 2011 The Android Open Source Project\n\nLicensed under the Apache License, Version 2.0 (the "License");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an "AS IS" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License.</string>
+    <!-- activity_license end-->
+
+    <!-- activity_call_phone start-->
+    <string name="activity_call_phone_status_send">受信中</string>
+    <string name="activity_call_phone_status_receive">発信中</string>
+    <string name="activity_call_phone_elapsed_time">%1$d:%2$02d</string>
+    <string name="activity_call_phone_elapsed_time_plus_hour">%1$d:%2$02d:%3$02d</string>
+    <string name="activity_call_phone_receive_header_text">通話着信が届いています</string>
+    <string name="activity_call_phone_receive_detail_text_for_female">✔ 獲得ポイント\n・30秒で2pt\n\n※キャンペーンによって獲得ポイントが変わる場合もございます\n\n✔ 例）\n・0:00〜0:29で切れると獲得なし\n・0:30〜0:59で切ると2pt獲得\n・1:00〜1:29で切ると4pt獲得\n\n上記内容に同意した上で、右下の緑ボタンで通話に出てください</string>
+
+    <string name="activity_video_call_receive_header_text">ビデオ通話着信が届いています</string>
+    <string name="activity_video_call_receive_detail_text_for_female">✔ 獲得ポイント\n・30秒で3pt\n\n※キャンペーンによって獲得ポイントが変わる場合もございます\n\n✔ 例）\n・0:00〜0:29で切れると獲得なし\n・0:30〜0:59で切ると3pt獲得\n・1:00〜1:29で切ると6pt獲得\n\n上記内容に同意した上で、右下の緑ボタンで通話に出てください</string>
+    <!-- activity_call_phone end-->
+
+    <!-- dialog_call_phone start-->
+    <string name="dialog_call_phone_error_title">通話に失敗しました</string>
+    <string name="dialog_video_call_error_title">ビデオ通話に失敗しました</string>
+    <string name="dialog_call_phone_error_message">通信の接続状態がいい場所でご利用ください</string>
+
+    <string name="dialog_call_phone_timeout_title">呼び出しを終了しました</string>
+    <string name="dialog_call_phone_timeout_message">相手方が通話に出られない、または呼び出し時間内に応答しませんでした。\n（呼び出し時間は混雑状況によって変わります）</string>
+
+    <string name="dialog_call_phone_result_title">通話を終了しました</string>
+    <string name="dialog_video_call_result_title">ビデオ通話を終了しました</string>
+    <string name="dialog_call_phone_result_message">[通話時間]\n%s</string>
+    <string name="dialog_call_phone_result_message_append_men">\n\n[獲得ポイント]\n%dpt</string>
+    <string name="dialog_call_phone_result_negative_button">不具合報告</string>
+
+    <string name="dialog_call_phone_end_confirm_title">通話を終了しますか？</string>
+    <string name="dialog_video_call_end_confirm_title">ビデオ通話を終了しますか？</string>
+
+    <string name="dialog_call_phone_bug_report_title">不具合報告</string>
+    <string name="dialog_call_phone_bug_report_message">この度はご迷惑をお掛けして申し訳ございませんでした。\n今後の品質向上のため、不具合報告にご協力ください。</string>
+    <string name="dialog_call_phone_bug_report_positive_button">報告する</string>
+    <string name="dialog_call_phone_bug_report_hint">入力してください（3000文字以内）</string>
+
+    <string name="dialog_call_phone_result_bug_report_title">ご協力ありがとうございます</string>
+    <string name="dialog_call_phone_result_bug_report_message">この度はご迷惑をお掛けして申し訳ございませんでした。\n\nお客様からいただいたご意見を、今後のサービス改善に活かせるよう努めてまいります。\n\n今後ともよろしくお願いいたします。</string>
+    <!-- activity_call_phone end-->
+
+    <!-- activity_invite_friend start -->
+    <string name="activity_invite_friend_title">お友達紹介キャンペーン</string>
+    <string name="activity_invite_friend_invitation_header_one">友達を紹介して</string>
+    <string name="activity_invite_friend_invitation_header_two">500pt</string>
+    <string name="activity_invite_friend_your_invitation_code">あなたのコード</string>
+    <string name="activity_invite_friend_invitation_text">紹介文</string>
+    <string name="activity_invite_friend_notice">※紹介コードのご入力は、新規登録時のみの1回限りです。\nいかなる場合も、登録後のポイント付与は対応できません。\n\n※人数制限はありません、例えば10人を紹介して全員がギフト交換をすれば、5000ptが獲得できます。</string>
+    <string name="activity_invite_friend_copied">コピーしました</string>
+    <string name="activity_invite_friend_copy_button">コピー</string>
+    <string name="activity_invite_friend_share_button">シェア</string>
+    <string name="activity_invite_friend_alert">注意事項</string>
+    <!-- activity_invite_friend end -->
+
+    <!-- dialog_register_invitation_code start -->
+    <string name="dialog_invitation_code_title">紹介コード</string>
+    <string name="dialog_invitation_code_subtitle">お持ちの方のみ、紹介コードを入力してください（任意）\n※紹介コードの入力機会は最後です</string>
+    <string name="dialog_invitation_code_edit_text">紹介コード（任意）</string>
+    <string name="dialog_invitation_code_edit_text_hint">入力してください</string>
+    <string name="dialog_invitation_code_button_negative">持ってない</string>
+    <string name="dialog_invitation_code_button_positive">OK</string>
+
+    <string name="dialog_invitation_code_success_title">紹介コードの登録完了</string>
+
+    <string name="dialog_invitation_code_error_default_title">無効な紹介コード</string>
+    <string name="dialog_invitation_code_error_default_message">正しい紹介コードを入力してください。</string>
+
+    <string name="dialog_invitation_code_error_404_title">無効な紹介コード</string>
+    <string name="dialog_invitation_code_error_404_message">コードに対応するユーザーがいません。</string>
+
+    <string name="dialog_invitation_code_error_406_title">無効な紹介コード</string>
+    <string name="dialog_invitation_code_error_406_message">ご自身の紹介コードを登録することは出来ません。</string>
+
+    <string name="dialog_invitation_code_error_409_title">登録済み</string>
+    <string name="dialog_invitation_code_error_409_message">すでに紹介コードの登録が完了しています。</string>
+
+
+    <!-- dialog_register_invitation_code end -->
+
+    <!-- input_double_btn -S- -->
+    <string name="input_double_btn_cancel">閉じる</string>
+    <string name="input_double_btn_cancel_unsaved">保存せずに閉じる</string>
+    <string name="input_double_btn_save">変更を保存</string>
+    <string name="input_double_btn_save_with_close">保存して閉じる</string>
+    <string name="input_double_btn_hint">テキストを入力</string>
+    <string name="input_double_btn_hint_length_limited">テキストを入力(%d文字以内)</string>
+    <!-- input_double_btn -E- -->
+
+    <string name="activity_call_phone_avail_list_empty_text">ユーザーが見つかりませんでした</string>
+    <string name="activity_call_phone_avail_list_connection_error">接続に失敗しました</string>
+    <string name="activity_call_phone_avail_list_help_dialog_title">『通話』ページの説明</string>
+    <string name="activity_call_phone_avail_list_help_dialog_body">&lt;font color=\"#FF0000\"&gt;✔&lt;/font&gt; より通話のマッチングを高めるための機能です&lt;br&gt;&lt;br&gt;&lt;font color=\"#FF0000\"&gt;✔&lt;/font&gt; 「通話待機する」を押すと、「&lt;font color=\"#1BB71F\"&gt;今すぐ通話OK&lt;/font&gt;」とリストに表示され、通話がかかってきやすくなります&lt;br&gt;&lt;br&gt;&lt;font color=\"#FF0000\"&gt;✔&lt;/font&gt; 「&lt;font color=\"#1BB71F\"&gt;今すぐ通話OK&lt;/font&gt;」で待機しているユーザーに通話をすれば、さらに繋がりやすくなります&lt;br&gt;&lt;br&gt;※ 自分は表示されません&lt;br&gt;※ ブロックしている・されている人は表示されません</string>
+    <string name="activity_call_phone_avail_list_standby_posi_button">通話\n待機</string>
+    <string name="activity_call_phone_avail_list_standby_nega_button">待機\n解除</string>
+    <string name="activity_call_phone_avail_list_standby">今すぐ通話OK</string>
+    <string name="activity_call_phone_avail_list_standby_help_dialog_title">『通話待機』の説明</string>
+    <string name="activity_call_phone_avail_list_standby_help_dialog_body">&lt;font color=\"#D37F8F\"&gt;✔&lt;/font&gt; より通話のマッチングを高めるための機能です&lt;br&gt;&lt;br&gt;&lt;font color=\"#D37F8F\"&gt;✔&lt;/font&gt; 「通話待機する」を押すと、「&lt;font color=\"#1BB71F\"&gt;今すぐ通話OK&lt;/font&gt;」とリストに表示され、通話がかかってきやすくなります&lt;br&gt;&lt;br&gt;&lt;font color=\"#D37F8F\"&gt;✔&lt;/font&gt; 「&lt;font color=\"#1BB71F\"&gt;今すぐ通話OK&lt;/font&gt;」で待機しているユーザーに通話をすれば、さらに繋がりやすくなります</string>
+    <string name="activity_call_phone_avail_list_standby_no_permit_dialog_body">通話受信が許可されていません\n\nその他画面より、通話もしくはビデオ通話の受信を許可してください</string>
+    <string name="activity_call_phone_avail_list_standby_button">通話待機</string>
+
+    <string name="dialog_call_phone_select_title">選択してください</string>
+    <string name="dialog_call_phone_select_call">通話する</string>
+    <string name="dialog_call_phone_select_video_call">ビデオ通話</string>
+    <string name="dialog_call_phone_select_notice">通話するよメール（一日一回まで）</string>
+    <string name="dialog_call_phone_select_cancel">キャンセル</string>
+
+
+    <string name="dialog_call_phone_confirm_title">通話をしますか？</string>
+    <string name="dialog_call_phone_confirm_message_for_female">&lt;font color=\"#D37F8F\"&gt;✔&lt;/font&gt;&lt;b&gt; 獲得ポイント&lt;/b&gt;&lt;br&gt;・30秒経過するごとに2pt獲得できます&lt;br&gt;&lt;br&gt;&lt;font color=\"#D37F8F\"&gt;✔&lt;/font&gt;&lt;b&gt; 例）&lt;/b&gt;&lt;br&gt;・0:00〜0:29で切ると獲得なし&lt;br&gt;・0:30〜0:59で切ると2pt獲得&lt;br&gt;・1:00〜1:29で切ると4pt獲得&lt;br&gt;&lt;br&gt;※キャンペーンによって獲得ポイントが変わる場合もございます&lt;br&gt;&lt;br&gt;&lt;font color=\"#D37F8F\"&gt;✔&lt;/font&gt;&lt;b&gt; 注意事項&lt;/b&gt;&lt;br&gt;・相手が通話に出るかどうかは、LINEアプリなどと同様、相手次第です</string>
+
+    <string name="dialog_video_call_confirm_title">ビデオ通話をしますか？</string>
+    <string name="dialog_video_call_confirm_message_for_female">&lt;font color=\"#D37F8F\"&gt;✔&lt;/font&gt;&lt;b&gt; 獲得ポイント&lt;/b&gt;&lt;br&gt;・30秒経過するごとに3pt獲得できます&lt;br&gt;&lt;br&gt;&lt;font color=\"#D37F8F\"&gt;✔&lt;/font&gt;&lt;b&gt; 例）&lt;/b&gt;&lt;br&gt;・0:00〜0:29で切ると獲得なし&lt;br&gt;・0:30〜0:59で切ると3pt獲得&lt;br&gt;・1:00〜1:29で切ると6pt獲得&lt;br&gt;&lt;br&gt;※キャンペーンによって獲得ポイントが変わる場合もございます&lt;br&gt;&lt;br&gt;&lt;font color=\"#D37F8F\"&gt;✔&lt;/font&gt;&lt;b&gt; 注意事項&lt;/b&gt;&lt;br&gt;・相手が通話に出るかどうかは、LINEアプリなどと同様、相手次第です</string>
+
+    <string name="dialog_call_phone_request_title">通話リクエストを送信しますか？</string>
+    <string name="dialog_call_phone_request_message">このユーザーは通話着信をNGに設定しています。\n1人につき1回までリクエストが送れます。\n\n※リクエストを送るのみで、通話の着信設定を変更するかはユーザー様次第です。</string>
+
+    <string name="dialog_video_call_request_title">ビデオ通話リクエストを送信しますか？</string>
+    <string name="dialog_video_call_request_message">このユーザーはビデオ通話着信をNGに設定しています。\n1人につき1回までリクエストが送れます。\n\n※リクエストを送るのみで、ビデオ通話の着信設定を変更するかはユーザー様次第です。</string>
+
+    <string name="dialog_call_phone_request_complete_message">通話リクエストを送信しました</string>
+
+    <string name="dialog_call_phone_notice_title">送信しました</string>
+    <string name="dialog_call_phone_notice_message">しばらく時間をおいたら、通話をかけてみましょう！</string>
+    <string name="dialog_call_phone_failed_title">送信に失敗しました</string>
+    <string name="dialog_call_phone_failed_message">しばらく時間をおいて再度お試しください</string>
+
+    <!-- permission dialog -->
+    <string name="dialog_permission_get_message_camera">カメラ機能を使用するためには、カメラとストレージの権限の許可が必要です。\n\n次のダイアログより許可をしてください。</string>
+    <string name="dialog_permission_get_message_call_phone">通話機能を使用するためには、マイクの権限の許可が必要です。\n\n次のダイアログより許可をしてください。</string>
+    <string name="dialog_permission_get_message_video_call">ビデオ通話機能を使用するためには、カメラとマイクの権限の許可が必要です。\n\n次のダイアログより許可をしてください。</string>
+
+    <string name="dialog_permission_failed_message_camera">カメラ機能を使用するためには、カメラとストレージの権限の許可が必要です。\n\nアプリ＞許可よりカメラとストレージをONにしてください。</string>
+    <string name="dialog_permission_failed_message_call_phone">通話機能を使用するためには、マイクの権限の許可が必要です。\n\nアプリ＞許可よりマイクをONにしてください。</string>
+    <string name="dialog_permission_failed_message_video_call">ビデオ通話機能を使用するためには、カメラとマイクの権限の許可が必要です。\n\nアプリ＞許可よりカメラとマイクをONにしてください。</string>
+    <!-- community_category_type -S- -->
+    <string name="community_category_type_1">恋愛・結婚</string>
+    <string name="community_category_type_2">同年代・共通点</string>
+    <string name="community_category_type_3">地域・地元</string>
+    <string name="community_category_type_4">音楽</string>
+    <string name="community_category_type_5">グルメ・お酒・料理</string>
+    <string name="community_category_type_6">テレビ番組</string>
+    <string name="community_category_type_7">映画</string>
+    <string name="community_category_type_8">読書・漫画・アニメ</string>
+    <string name="community_category_type_9">芸能人・お笑い</string>
+    <string name="community_category_type_10">ゲーム・アプリ</string>
+    <string name="community_category_type_11">スポーツ</string>
+    <string name="community_category_type_12">アウトドア</string>
+    <string name="community_category_type_13">旅行・お出かけ</string>
+    <string name="community_category_type_14">車・バイク</string>
+    <string name="community_category_type_15">ペット・動物</string>
+    <string name="community_category_type_16">オシャレ・ファッション</string>
+    <string name="community_category_type_17">趣味・習い事</string>
+    <string name="community_category_type_18">アート</string>
+    <string name="community_category_type_19">イベント・フェス</string>
+    <string name="community_category_type_20">ライフスタイル</string>
+    <string name="community_category_type_21">事件・ニュース</string>
+    <string name="community_category_type_22">ビジネス・経済</string>
+    <string name="community_category_type_23">ココロとカラダ</string>
+    <string name="community_category_type_24">占い</string>
+    <string name="community_category_type_25">日記・写真</string>
+    <string name="community_category_type_26">Web・インターネット</string>
+    <string name="community_category_type_27">会社・団体</string>
+    <string name="community_category_type_28">学校</string>
+    <string name="community_category_type_29">雑談、その他</string>
+    <!-- community_category_type -E- -->
+
+    <!-- activity_category -S- -->
+    <string name="activity_community_create_button">コミュニティを作成する</string>
+    <string name="activity_community_top_search">コミュニティ検索</string>
+    <string name="activity_community_top_join_view">参加中のコミュニティを見る</string>
+    <string name="activity_community_top_category_search">カテゴリから探す</string>
+    <string name="activity_community_top_all_view">すべてを見る＞</string>
+    <string name="activity_community_top_popular_community">人気コミュニティ</string>
+    <string name="activity_community_top_recommend_community">おすすめコミュニティ</string>
+    <string name="activity_community_top_join_community">参加中のコミュニティ</string>
+    <string name="activity_community_top_new_community">新着コミュニティ</string>
+
+    <string name="activity_community_create_title">コミュニティの作成</string>
+    <string name="activity_community_create_comm_name">コミュニティ名</string>
+    <string name="activity_community_create_comm_name_hint">20文字以内</string>
+    <string name="activity_community_create_comm_category">カテゴリ</string>
+    <string name="activity_community_create_comm_image">コミュニティ画像</string>
+    <string name="activity_community_create_comm_category_default">未選択</string>
+    <string name="activity_community_create_info">コミュニティ作成ルールを確認した上で作成してください。\nコミュニティの作成には審査があります。\n審査を通過するとコミュニティが反映されます。\n 一度作成したコミュニティは、あとから削除できません。</string>
+    <string name="activity_community_create_rule_button">コミュニティ作成ルール</string>
+    <string name="activity_community_create_select_category">カテゴリの選択</string>
+
+    <string name="activity_community_create_confirm_destroy">入力中の内容があります\n本当に画面を閉じてもよろしいですか？</string>
+
+    <string name="activity_community_create_error_title">コミュニティ作成エラー</string>
+    <string name="activity_community_create_error_no_name">コミュニティ名を入力してください</string>
+    <string name="activity_community_create_error_no_category">カテゴリを選択してください</string>
+    <string name="activity_community_create_error_no_image">コミュニティ画像を設定してください</string>
+
+    <string name="activity_community_create_dialog_title">コミュニティを作成しますか？</string>
+    <string name="activity_community_create_complete_title">コミュニティを審査します</string>
+    <string name="activity_community_create_complete_body">コミュニティを作成しました。審査を通過するとコミュニティが反映されます。審査は通常24時間以内に完了します。</string>
+
+    <string name="activity_community_rule_title">コミュニティ作成ルール</string>
+    <string name="activity_community_rule_sub_title">安全で快適な環境を守るため、以下のルールをお守りください。</string>
+    <string name="activity_community_rule_header_1">1.アダルト要素を含むコミュニティを作成することはできません。</string>
+    <string name="activity_community_rule_body_1">アダルト要素とは、フェチズム、性行為などを連想させるものなどを指します。\nまた、画像についてもプロフィール画像と同じ基準で判断しています。肌の露出が激しいものや、体の一部の接写などは使用できません。</string>
+    <string name="activity_community_rule_header_2">2.待ち合わせなど、現地で出会うことが目的のコミュニティは作成することはできません。</string>
+    <string name="activity_community_rule_body_2">具体的な地名や店舗名、日時や頻度などの情報を含んだコミュニティを作成することはできません。</string>
+    <string name="activity_community_rule_header_3">3.個人の特定がされやすい小規模な団体や地名を含んだコミュニティを作成することはできません。</string>
+    <string name="activity_community_rule_header_4">4.類似したコミュニティを作成することはできません。</string>
+    <string name="activity_community_rule_body_4">既に存在しているコミュニティと類似しているコミュニティは作成できません。作成する前にご確認ください。</string>
+    <string name="activity_community_rule_header_5">5.金品交換・物品売買を目的としたコミュニティを作成することはできません。</string>
+    <string name="activity_community_rule_body_5">下着などを含む物品販売や、ギフト券や金銭の授受を行う可能性のあるコミュニティは作成できません。</string>
+    <string name="activity_community_rule_header_6">6.その他</string>
+    <string name="activity_community_rule_body_6">公序良俗に反するもの\n待ち合わせを意図したもの \n第三者の著作物を引用したもの \n犯罪行為、自殺行為の可能性があるもの \n差別的な要素を含むもの \n外部サービスへの誘導を含むもの \n利用規約に反するもの\n\n 当事務局がアプリに不適切と判断した場合、予告なしに公開済みのコミュニティを変更・削除することがあります。</string>
+
+
+    <string name="activity_community_list_member_num">%d人</string>
+    <string name="community_list_search_title">コミュニティ検索</string>
+    <string name="community_list_zero_match">コミュニティが見つかりませんでした</string>
+    <string name="community_list_zero_match_for_join">参加中のコミュニティはありません</string>
+    <string name="community_list_connection_error">接続に失敗しました</string>
+
+    <string name="activity_community_user_list_join">コミュニティに参加する</string>
+    <string name="activity_community_user_list_leave">コミュニティへの参加をやめる</string>
+    <string name="activity_community_user_list_leave_dialog">コミュニティへの参加をやめますか？</string>
+    <string name="community_user_list_zero_match">ユーザーが見つかりませんでした</string>
+    <string name="community_user_list_connection_error">接続に失敗しました</string>
+
+    <string name="activity_community_user_list_member_num">参加メンバー%1$d人 (%2$s %3$d人)</string>
+
+    <!-- activity_category -E- -->
+
+    <!-- sub_image -S- -->
+    <string name="sub_image_request">写真を\nリクエスト</string>
+    <string name="sub_image_requested">写真を\nリクエスト済</string>
+    <string name="sub_image_add">写真追加</string>
+    <string name="sub_image_title">サブ写真（%d/10）</string>
+
+    <string name="sub_image_in_review">審査中</string>
+    <string name="sub_image_edit">編集</string>
+    <string name="sub_image_change">写真を変更</string>
+    <string name="sub_image_delete">写真を削除</string>
+
+    <string name="sub_image_request_title">写真をリクエストしますか？</string>
+    <string name="sub_image_request_body">相手に写真掲載をリクエストします。</string>
+    <!-- sub_image -E- -->
+
+
+    <!-- activity_app_ability -S- -->
+    <string name="activity_app_ability_text_1">１．チャットする　通話する</string>
+    <string name="activity_app_ability_text_2">２．ptが貯まる</string>
+    <string name="activity_app_ability_text_3">３．ギフト券をゲットする</string>
+    <string name="activity_app_ability_agreement"><u>利用規約</u></string>
+    <string name="activity_app_ability_ok">同意する</string>
+    <!-- activity_app_ability -E- -->
+
+    <!-- age_verification_un_confirm -S- -->
+    <string name="age_verification_un_confirm_error_title">年齢確認が必要です</string>
+    <string name="age_verification_un_confirm_error_mail">定型文以外のメッセージを送信するには年齢確認が必要です</string>
+    <string name="age_verification_un_confirm_error_board">定型文以外のメッセージを投稿するには年齢確認が必要です</string>
+    <string name="age_verification_un_confirm_error_video">ビデオ通話機能を利用するには年齢確認が必要です</string>
+    <string name="age_verification_un_confirm_error_call">通話機能を利用するには年齢確認が必要です</string>
+    <string name="age_verification_un_confirm_error_positive_btn">年齢確認する</string>
+    <string name="age_verification_un_confirm_error_negative_btn">あとで</string>
+    <!-- age_verification_un_confirm -E- -->
+
+    <!-- last_login_view -S- -->
+    <string name="last_login_on_hour">1時間以内にログイン</string>
+    <string name="last_login_one_day">24時間以内にログイン</string>
+    <string name="last_login_three_day">3日以内にログイン</string>
+    <string name="last_login_other">3日以上ログインなし</string>
+    <!-- last_login_view -E- -->
+
+    <!-- activity_block_list -S- -->
+    <string name="activity_block_list_empty_text">ブロックしているユーザーはいません</string>
+    <string name="activity_block_list_connection_error">接続に失敗しました</string>
+
+    <string name="activity_block_list_title">ブロックしたユーザー</string>
+    <string name="activity_block_list_header">あなたがブロックしたユーザーです。\n相手はあなたを見ることができますが、あなたからは非表示になります。\n※アプリを退会したユーザーは表示されません</string>
+    <string name="activity_block_list_cancel">解除する</string>
+    <string name="activity_block_list_all_cancel">全て解除</string>
+    <string name="activity_block_list_toast">ブロックを解除しました</string>
+
+    <string name="activity_block_list_dialog_all_cancel_title">ブロックを全て解除</string>
+    <string name="activity_block_list_dialog_all_cancel_body">全てのブロックを削除します。\nよろしいですか?</string>
+    <!-- activity_block_list -E- -->
+
+    <!-- activity_create_template -S- -->
+    <string name="activity_template_title">自作定型文</string>
+    <string name="activity_template_edit">編集</string>
+    <string name="activity_template_edit_finish">完了</string>
+    <string name="activity_template_all_select">すべて選択</string>
+    <string name="activity_template_all_select_cancel">選択解除</string>
+    <string name="activity_template_all_delete">すべて削除</string>
+    <string name="activity_template_delete">削除する</string>
+
+    <string name="activity_template_add">新しい定型文を追加...</string>
+
+    <string name="activity_template_sub_title">定型文</string>
+
+    <string name="activity_template_edit_dialog_title">定型文を編集</string>
+    <string name="activity_template_add_dialog_title">定型文を追加</string>
+
+    <string name="activity_template_confirm_delete_all_title">全削除しますか？</string>
+    <string name="activity_template_confirm_delete_title">削除しますか？</string>
+    <string name="activity_template_confirm_delete_body">削除された定型文は復元することはできません。\n削除を行いますか？</string>
+    <!-- activity_create_template -E- -->
+
+    <!-- mission -S- -->
+    <string name="mission_title">ボーナスミッション</string>
+    <string name="mission_row_progress">(%1$d / %2$d)</string>
+    <string name="mission_row_achieved_button">受け取る</string>
+    <string name="mission_row_received_button">受領済み</string>
+    <string name="mission_row_detail_button">詳細</string>
+    <string name="mission_tab_event">イベント\n(%1$s〜%2$s)</string>
+    <string name="mission_tab_daily">デイリー</string>
+    <string name="mission_tab_total">ミッション</string>
+    <string name="mission_achieve_dialog_title">ミッション達成！</string>
+    <string name="mission_achieve_dialog_body">ミッション達成の報酬として%dptゲットしました！</string>
+    <string name="mission_completed_missions">おめでとうございます！\nこちらのミッションは全て達成しました！</string>
+    <!-- mission -E- -->
+
+    <!-- exchange -S- -->
+    <string name="exchange_invite_title">友達を紹介して500ptを獲得する</string>
+    <string name="exchange_star_item_text">%sギフト券%d円分</string>
+    <string name="exchange_item_dialog_succeed">申請が完了しました。\n\n審査結果をお待ち下さい。</string>
+    <string name="exchange_item_dialog_failed">申請に失敗しました。\n\nしばらく時間をおいて再度お試しください。</string>
+    <string name="exchange_history">履歴</string>
+
+    <string name="exchange_now_confirming">※現在審査中のため、審査が終わるまでお待ちください</string>
+    <string name="exchange_header_name">%s様</string>
+    <string name="exchange_header_guide_line">ギフト交換のガイドライン</string>
+
+    <!-- exchange -E- -->
+
+    <!-- dialog_exchange_item start-->
+    <string name="dialog_exchange_item_text_title">確認画面</string>
+    <string name="dialog_exchange_item_text_item_name">ギフト</string>
+    <string name="dialog_exchange_item_text_has_star">所持ポイント</string>
+    <string name="dialog_exchange_item_text_consume_star">消費ポイント</string>
+    <string name="dialog_exchange_item_text1">このギフトの注意事項</string>
+    <string name="dialog_exchange_item_text2">共通の注意事項</string>
+    <string name="dialog_exchange_item_text3">交換申請をしますか？</string>
+    <string name="dialog_exchange_item_text_notes">※ギフト券は、審査後にアプリ内メールでURLが送信され、確認できます。\n\n※審査に落ちた場合、ポイントは返還されません。\n\n※審査内容については、審査ガイドラインをお読みください。</string>
+    <string name="dialog_exchange_item_text_guide_line">※申請ボタンを押すことで、審査ガイドラインに了承したことになります。\n\n※審査完了まで1週間程度かかる場合がございます。</string>
+    <string name="dialog_exchange_item_btn_detail">詳細説明</string>
+    <string name="dialog_exchange_item_btn_cancel">キャンセル</string>
+    <string name="dialog_exchange_item_btn_ok">申請</string>
+    <!-- dialog_exchange_item end-->
+
+    <!-- mission -S- -->
+    <string name="star_add_history_title">ポイント獲得履歴</string>
+    <string name="star_add_history_calendar_title">%1$d年%2$d月</string>
+    <string name="star_add_history_calendar_total">合計</string>
+    <string name="star_add_history_exchange_list_title">ギフト獲得履歴</string>
+    <string name="star_add_history_exchange_list_empty">この月のギフト獲得はありません</string>
+    <!-- mission -E- -->
+
+    <string name="dialog_fever_time_title">FEVER\nTIME</string>
+
+    <string name="dialog_like_over_limit_err_title">ありがとうございます!!</string>
+    <string name="dialog_like_over_limit_err_body">サーバーの負荷軽減のため、現在、いいね送信は1日%d件までとさせていただいております。\n\n※通常のメッセージ送信に制限はございませんのでご安心ください。\n\n※カウントは0時にリセットされます</string>
+
+    <!-- exchange_threshold -S- -->
+    <string name="exchange_threshold_title">もう少しです！</string>
+    <string name="exchange_threshold_body">いいね以外のメールを10通受信すると、ギフト申請が可能になります。\n\n※スパム行為防止のため、ご理解ください。</string>
+    <!-- exchange_threshold -E- -->
+
+    <!-- dialog_kick -S- -->
+    <string name="dialog_kick_confirm_title">キックしますか？</string>
+    <string name="dialog_kick_confirm_body">不快な思いをした場合は、キックが可能です。\n\n・通話の強制切断\n・通報\n・ブロックリストに追加\n\nを行いますが、よろしいですか？</string>
+    <string name="dialog_kick_confirm_ok">キック</string>
+    <!-- dialog_kick -E- -->
+
+    <!-- dialog_kicked -S- -->
+    <string name="dialog_kicked_title">キックしました</string>
+    <string name="dialog_kicked_body">不快な思いをさせてしまい、申し訳ございませんでした。\n該当ユーザーはブロックさせて頂きました。\n\nもしよろしければ、追加情報をお伝えください。サポートから警告をする際に使用させて頂きます。</string>
+
+    <string name="dialog_kicked_report_btn">通報</string>
+
+    <string name="dialog_kick_reported_title_with_send">送信完了しました</string>
+    <string name="dialog_kick_reported_title_without_send">通話を終了しました</string>
+    <string name="dialog_kick_reported_body1">この度は不快な思いをさせてしまい、大変 申し訳ございませんでした。\n\n</string>
+    <string name="dialog_kick_reported_body2">通報頂き ありがとうございました。\n\n</string>
+    <!-- dialog_kicked -E- -->
+
+    <!-- kick_type -S- -->
+    <string name="kick_type_non_set">選択してください</string>
+    <string name="kick_type_genital_exposure">性器の露出</string>
+    <string name="kick_type_sexual_talk">性的発言</string>
+    <string name="kick_type_aid_dating">援助交際</string>
+    <string name="kick_type_sex_fake">性別偽装(ネカマ)</string>
+    <string name="kick_type_under_18">18歳未満</string>
+    <string name="kick_type_others">その他</string>
+    <!-- kick_type -E- -->
+
+    <!-- news_with_url_dialog -S- -->
+    <string name="news_with_url_no_more_check">このお知らせをこれ以降 表示しない</string>
+    <string name="news_with_url_retry">再読み込み</string>
+    <!-- news_with_url_dialog -E- -->
+
+    <!-- command_in_app_error -S- -->
+    <string name="command_error_common_title">申し訳ありません</string>
+    <string name="command_error_unavailable_body">現在、アプリをご利用頂けません。\n時間をおいて再度お試しください。</string>
+    <string name="command_error_non_purchasing_body">本機能は無料ユーザーの方はご利用頂けません。\n一度でも課金すればご利用可能となります。</string>
+    <string name="command_error_non_age_verification_body">本機能は年齢確認が済んでいないユーザーの方はご利用頂けません。\n年齢確認をお願い致します。\n\n(年齢確認は「その他」タブの「年齢確認」から行うことができます。)</string>
+    <string name="command_error_unavailable_feature_body">ただいま本機能は調整中となります。大変 申し訳ございませんが、機能公開をお待ち下さい。</string>
+    <string name="command_error_same_page_toast">既に遷移先のページが開かれています</string>
+    <!-- command_in_app_error -E- -->
+
+    <!-- greeting_mail -S- -->
+    <string name="greeting_mail_status_approval">編集する</string>
+    <string name="greeting_mail_status_unapproval">未設定</string>
+    <string name="greeting_mail_status_in_review">審査中</string>
+    <string name="greeting_mail_status_non_set">未設定</string>
+
+    <string name="greeting_mail_activity_title">あいさつメール</string>
+    <string name="greeting_mail_activity_save">保存</string>
+    <string name="greeting_mail_activity_hint">入力してください（200文字以内）</string>
+    <string name="greeting_mail_error_empty_title">入力されていません</string>
+    <string name="greeting_mail_error_empty_body">自分だけの、あいさつメールを作成しましょう！\n\n「♡いいね」を送るよりも 返信率がぐーんと上がりますよ！</string>
+    <string name="greeting_mail_error_same_title">変更がありません</string>
+    <string name="greeting_mail_error_same_body">以前にご登録 頂いたものと同じ文言になっています。\n\nさがす画面の「Hi!」ボタンを押して、殿方へあいさつメールを送りましょう！</string>
+    <string name="greeting_mail_activity_confirm_before_close">入力に変更があります。\n\n本当に画面を閉じてもよろしいですか？</string>
+
+    <string name="greeting_mail_complete_dialog_title">審査をお待ちください</string>
+    <string name="greeting_mail_complete_dialog_body">あいさつメールを保存しました。\nサポートが内容を審査し、承認されましたら、「さがす」画面から あいさつメールを送りましょう！\n\n※審査には最大3営業日かかります。</string>
+
+    <string name="greeting_mail_before_open_dialog_title">あいさつメールを使おう</string>
+    <string name="greeting_mail_before_open_dialog_body">【女性限定】で便利な機能が登場！\n\nさがす画面で「Hi」ボタンを押すと、オリジナルの「あいさつメール」がカンタンに送れるよ！\nちゃんと足あともつくから安心してね！\n「いいね♡」を送るよりも効果はバツグン✨\n\nあいさつメールの内容には審査があるから、早めに設定だけしておこう！\n\n※いいねのクイック送信機能は廃止となりました\n※あいさつメールの送信数には1日あたりの上限があります</string>
+    <string name="greeting_mail_before_open_dialog_positive_btn">設定する</string>
+    <string name="greeting_mail_before_open_dialog_negative_btn">あとで</string>
+
+    <string name="greeting_mail_dialog_over_limit_err_title">ありがとうございます!!</string>
+    <string name="greeting_mail_dialog_over_limit_err_body">サーバーの負荷軽減のため、現在、あいさつメール送信は1日%d件までとさせていただいております。\n\n※通常のメッセージ送信に制限はございませんのでご安心ください。\n\n※カウントは0時にリセットされます</string>
+
+    <string name="greeting_mail_dialog_in_review_error_title">審査中です</string>
+    <string name="greeting_mail_dialog_in_review_error_body">あいさつメールの内容を審査しております。\nもう少々お待ちください。</string>
+    <string name="greeting_mail_dialog_in_review_error_positive">再設定する</string>
+    <string name="greeting_mail_dialog_in_review_error_negative">はい</string>
+
+    <string name="greeting_mail_search_row_non_set_badge">新機能</string>
+    <string name="greeting_mail_search_row_non_set_body">「あいさつメール」を送ろう！</string>
+    <string name="greeting_mail_search_row_non_set_transit">設定</string>
+    <string name="greeting_mail_search_row_in_review_body">「あいさつメール」審査中</string>
+    <string name="greeting_mail_search_row_in_review_transit">編集</string>
+    <string name="greeting_mail_search_row_approval_body">あいさつメール</string>
+    <string name="greeting_mail_search_row_approval_body_in_threshold">あいさつメール（ %1$d / %2$d ）</string>
+    <string name="greeting_mail_search_row_approval_transit">編集</string>
+    <!-- greeting_mail -E- -->
+
+    <!-- profile_example -S- -->
+    <string name="profile_example_title">例文から選ぶ</string>
+    <string name="profile_example">例文</string>
+    <string name="profile_example_use">この例文を使う</string>
+    <!-- profile_example -E- -->
+</resources>

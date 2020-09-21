@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 非活性時 = ボタンが聞かない状態の時 -->
+<!--    https://www.google.com/search?sxsrf=ALeKk028fSBGdvNkWaaR9J-4Glb9AHF0kA%3A1600659731518&ei=EyFoX5KNH8TywQPBlIS4DQ&q=%E9%9D%9E%E6%B4%BB%E6%80%A7+%E6%84%8F%E5%91%B3&oq=%E9%9D%9E%E6%B4%BB%E6%80%A7+%E6%84%8F%E5%91%B3&gs_lcp=CgZwc3ktYWIQAzIGCAAQBBAlMgQIABAeMgYIABAFEB46BAgjECc6BAgAEAQ6BggAEAQQHjoICAAQBBAKEB46CAgAEAUQBBAeOgYIABAIEB5Qth9Yx0NgmUpoBHAAeAGAAcEFiAGyFpIBDTAuNS40LjAuMS4wLjGYAQCgAQGqAQdnd3Mtd2l6wAEB&sclient=psy-ab&ved=0ahUKEwjS4s-VqvnrAhVEeXAKHUEKAdcQ4dUDCA0&uact=5-->
+    <item android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/app_button_disable_color" />
+            <corners android:radius="5dp" />
+        </shape>
+    </item>
+
+    <!-- ボタンが押されてない時 = state_pressed="false" -->
+    <item android:state_pressed="false">
+        <!-- ボタンの形状 -->
+        <shape android:shape="rectangle">
+<!--            xml の使い方-->
+<!--            https://qiita.com/yukiyamadajp/items/15fc68dc88b57734149b-->
+
+
+<!--            solid = 背景色-->
+            <solid android:color="@color/app_primary_frame_color" />
+            <corners android:radius="5dp" />
+<!--            stroke = 枠線-->
+            <stroke
+                android:width="1dp"
+                android:color="@color/app_primary_color" />
+        </shape>
+    </item>
+    <!-- ボタンが押された時 = android:state_pressed="true" -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+
+            <solid android:color="@color/light_gray" />
+            <corners android:radius="5dp" />
+            <stroke
+                android:width="1dp"
+                android:color="@color/app_primary_color" />
+        </shape>
+    </item>
+</selector>

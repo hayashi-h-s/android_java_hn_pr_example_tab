@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+<!--・ ダイアログ   -->
+
+<!--gradleにインポートするとTabLayoutが使える-->
+<!--    implementation 'com.google.android.material:material:1.0.0'-->
+
+<!--    elevation = 影を作る-->
+<!--    https://qiita.com/Gesyutapo/items/45f09fb8f9e30588360e-->
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:elevation="@dimen/header_elevation"
+        android:background="@color/white"
+        app:tabMode="scrollable"
+        app:tabSelectedTextColor="@color/app_primary_color"
+        app:tabIndicatorColor="@color/app_header_color" />
+
+    <View
+        android:background="@color/app_header_color"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/pager"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+
+</LinearLayout>

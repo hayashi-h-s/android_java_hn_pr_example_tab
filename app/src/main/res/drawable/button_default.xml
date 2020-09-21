@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 非活性時 -->
+    <item android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/app_button_disable_color" />
+            <corners android:radius="5dp" />
+        </shape>
+    </item>
+    <!-- ボタンが押されてない時 -->
+    <item android:state_pressed="false">
+        <!-- ボタンの形状 -->
+        <shape android:shape="rectangle">
+            <solid android:color="@color/app_primary_color" />
+            <corners android:radius="5dp" />
+        </shape>
+    </item>
+    <!-- ボタンが押された時 -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/app_primary_dark_color" />
+            <corners android:radius="5dp" />
+        </shape>
+    </item>
+</selector>
