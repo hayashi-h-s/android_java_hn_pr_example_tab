@@ -16,6 +16,9 @@ public class ProfileExampleTextDialog {
 
     public void showExampleTextDialog(Activity activity, final ProfileExampleTextDialogListener listener){
 
+        // activity で受け取ったcontextに作成する
+
+        // https://techacademy.jp/magazine/3715
         AlertDialog.Builder builder = new AlertDialog.Builder(activity);
 
         LayoutInflater inflater = LayoutInflater.from(activity);
@@ -32,13 +35,19 @@ public class ProfileExampleTextDialog {
         builder.setTitle(R.string.profile_example_title);
         builder.setView(view);
 
+        // テキスト IDを取得して、クリックリスナーを作成している
+
+        //
         builder.setPositiveButton(R.string.profile_example_use, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
                 listener.onSelectListener(
                         adapter.getText(viewPager.getCurrentItem()));
             }
-        }).setNegativeButton(R.string.button_common_cancel, null);
+        });
+
+        // キャンセルボタンも同時に定義している
+        builder.setNegativeButton(R.string.button_common_cancel, null);
 
         AlertDialog dialog = builder.create();
         dialog.show();

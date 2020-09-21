@@ -12,6 +12,11 @@
 <!--    elevation = 影を作る-->
 <!--    https://qiita.com/Gesyutapo/items/45f09fb8f9e30588360e-->
 
+
+    <!--    TabLayoutで設定できるattributes一覧-->
+    <!--    https://qiita.com/konifar/items/0fdad2813f189267c866-->
+
+
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tabLayout"
         android:layout_width="match_parent"

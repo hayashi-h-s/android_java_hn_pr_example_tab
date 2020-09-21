@@ -35,6 +35,8 @@ public class MainActivity extends AppCompatActivity {
                 ProfileExampleTextDialog mProfileExampleTextDialog = new ProfileExampleTextDialog();
 
                 // MainActivity.thisでアクティビティを取得している
+
+
                 mProfileExampleTextDialog.showExampleTextDialog (MainActivity.this, new ProfileExampleTextDialog.ProfileExampleTextDialogListener() {
                     @Override
                     public void onSelectListener(String selectText) {

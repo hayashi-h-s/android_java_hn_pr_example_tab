@@ -36,14 +36,16 @@ public class ProfileExampleTextPagerAdapter extends PagerAdapter {
         String[] stringList = context.getResources().getStringArray(R.array.profile_example_text);
 
 
-        // profile_example_text の 文章を全て取得して、
+        // profile_example_text の 文章を全て取得して、指定したタグを置き換えている。
         for (int i = 0; i < stringList.length; i++){
             // 文章を整形
-
+            // 配列で取得している
             String string = stringList[i];
             string = string.replace(TAG_NAME, "「名前」");
             string = string.replace(TAG_AREA, "「住所」");
             string = string.replace(TAG_AGE, "「年齢」");
+
+            // リストに追加している。
             mTextList.add(string);
         }
     }
